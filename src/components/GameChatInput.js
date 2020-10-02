@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import '../styles/GameChatInput.css'
 
 class GameChatInput extends Component {
   static propTypes = {
@@ -11,7 +12,7 @@ class GameChatInput extends Component {
   render() {
     return (
       <form
-        className="chatGameForm"
+        className="tttChatForm"
         action="."
         onSubmit={(e) => {
           e.preventDefault();
@@ -20,14 +21,14 @@ class GameChatInput extends Component {
         }}
       >
         <input
-          className="chatGameInput"
+          className="tttChatInput"
 
           type="text"
           placeholder={"Enter message..."}
           value={this.state.message}
           onChange={(e) => this.setState({ message: e.target.value })}
         />
-        <input className="chatGameSubmit" type="submit" value={"Send"} />
+        <input className="tttChatSubmit" type="submit" value={"Send"} />
       </form>
     );
   }

@@ -68,13 +68,16 @@ class GameChat extends Component {
       )
     );
     return (
-      <div className="gameWrapper" id="wholeGameChat">
-        <div className="chatGameBox">{message}</div>
+      <>
+      <div className="gameChatWrapper">
+      
+        <div className="chatMessage">{message}</div>
         <GameChatInput
           ws={this.ws}
           onSubmitMessage={(messageString) => this.submitMessage(messageString)}
         />
-      </div>
+        </div>
+      </>
     );
   }
 }

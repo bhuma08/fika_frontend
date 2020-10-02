@@ -160,3 +160,6 @@ ul {
   margin-left: 80%;
   overflow: scroll;
 }
+.gameChatBTN{
+  background-color: var(--yellow);
+}

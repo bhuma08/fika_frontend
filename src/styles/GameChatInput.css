@@ -1,0 +1,28 @@
+/* .tttChatInput{
+    width:250px;
+} */
+
+.tttChatSubmit{
+    background-color: var(--yellow);
+}
+
+.tttChatForm{
+    width:400px;
+    /* margin: 0; */
+
+}
+.chatMessage{
+    width:0.1%;
+}
+.gameChatWrapper{
+    /* width: 20%;
+  position: absolute;
+  top: 75%;
+  left: 60%;
+  height: calc(100vh - 292.74px) !important;
+  padding-top: 30px; */
+
+  position: absolute;
+  padding-top: 75px;
+
+}
